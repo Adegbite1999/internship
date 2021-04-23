@@ -1,0 +1,39 @@
+.navigation{
+    display: flex;
+ width: 100%;
+ max-width: 1280px;
+ justify-content: space-around;
+ margin: auto;
+ align-items: center;
+ }
+ .navigation__list{
+     display: flex;
+     justify-content: space-around;
+ }
+ .navigation__list > a{
+     text-decoration: none;
+ }
+ .navigation__icon{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-left: 1rem;
+     color: red;
+ }
+ .icon{
+     margin-right: 8px;
+     font-size: 20px;
+ }
+ .icon-nt{
+     font-size: 20px;  
+     color: red; 
+ }
+ .navigation__icon > p{
+     font-size: 20px;
+ }
+ .logo{
+     font-size: 24px;
+ }
+ .icon-nt{
+     font-size: 30px;
+ }

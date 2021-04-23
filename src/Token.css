@@ -1,0 +1,42 @@
+/* .token{
+    margin-bottom: 50px;
+} */
+.currency{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    background: #ccc;
+    padding: 10px;
+    color: #007bff;
+}
+
+.token-c{
+ background: #f7f7f7;
+ padding: 10px;
+ border-radius: 10px;
+}
+.token-c > label{
+    font-size: 2rem;
+    margin-right: 5px;
+}
+.token-c > input{
+    padding: 5px;
+}
+.button{
+    padding: 50px;
+    display: flex;
+    position: relative;
+    transform: translateX(0px);
+}
+.btn{
+    padding: 20px;
+    width: 50%;
+    background-color:#007bff ;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:not(:last-child){
+    margin-right: 30px;
+}
