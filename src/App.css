@@ -2,7 +2,12 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* width: 100%; */
 }
+
+
+
+
 
 @media screen and (max-width:768px) {
   .navigation__list {
@@ -23,14 +28,19 @@ body{
       padding: 0 .8rem;
   }
   .navigation__icon {
-      display: flex;
+      /* display: flex;
       align-items: center;
-      justify-content: space-around;
+      justify-content: space-around; */
       margin-left: 0rem;
-      color: red;
+      color: green;
       flex-direction: column;
       padding: 0 5px 0 0;
+      width: 55%;
   }
+  /* .navigation__icon > p{
+    font-size: 15px;
+} */
+
   .icon {
       margin-right: 8px;
       font-size: 60px;
@@ -55,4 +65,9 @@ body{
   .table{
       font-size: 1.3rem;
   }
-}
+
+    /* .navigation__icon > p{
+    font-size: 10px;
+} */
+}         
+
