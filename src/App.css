@@ -32,18 +32,15 @@ body{
       align-items: center;
       justify-content: space-around; */
       margin-left: 0rem;
-      color: green;
       flex-direction: column;
       padding: 0 5px 0 0;
       width: 55%;
   }
-  /* .navigation__icon > p{
-    font-size: 15px;
-} */
+
 
   .icon {
       margin-right: 8px;
-      font-size: 60px;
+      font-size: 59.5px;
   }
   .token{
       margin-bottom: 150px;
